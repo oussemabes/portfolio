@@ -3,9 +3,9 @@
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Besbes Oussema",
+		"email": "oussema.besbes@supcom.tn",
+		"url": "https://oussemabes.github.io/repository"
 	},
 	"license": "MIT",
 	"private": true,
@@ -54,5 +54,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"gh-pages": "^6.1.1"
 	}
 }
