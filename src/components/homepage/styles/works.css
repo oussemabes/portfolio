@@ -1,14 +1,16 @@
 @import "../../../data/styles.css";
-
+.works{
+	margin-top: 20px;
+}
 .works-body {
 	margin-bottom: 10px;
 }
 
 .work {
 	display: flex;
-	padding-bottom: 40px;
-	width: 400px;
-}
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	width: 400px;}
 
 .work-image {
 	height: 30px;
@@ -19,26 +21,26 @@
 }
 
 .work-title {
+	flex-grow: 1; /* Add this property to make the title take the available space */
 	font-size: 15px;
 	font-weight: 700;
-	padding-left: 20px;
-	margin-top: -3px;
+	margin-left: 20px; /* Replace padding-left with margin-left for better spacing */
 	color: var(--secondary-color);
 }
-
 .work-subtitle {
-	position: absolute;
-	font-size: 12px;
+	position: relative;
+	margin-top: 0px;
+	font-size: 14px;
+	margin-left: 56px;
+	margin-bottom: 10px;
 	color: var(--secondary-color);
-	padding-top: 22px;
-	padding-left: 50px;
 }
 
 .work-duration {
-	position: absolute;
-	width: 350px;
+	position: relative;
 	font-size: 12px;
-	padding-top: 20px;
+	margin-bottom: 0px;
+	margin-top: 7px;
 	text-align: right;
 	color: var(--tertiary-color);
 }

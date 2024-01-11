@@ -54,7 +54,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src="358075461_6581064608646651_1629508064879224461_n (1).jpg"
 											alt="about"
 											className="about-image"
 										/>
