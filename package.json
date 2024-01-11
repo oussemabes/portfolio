@@ -1,11 +1,12 @@
 {
+	"homepage": "https://oussemabes.github.io/portfolio",
 	"name": "reactfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Besbes Oussema",
+		"name": "oussema besbes",
 		"email": "oussema.besbes@supcom.tn",
-		"url": "https://oussemabes.github.io/repository"
+		"url": "https://oussemabes.github.io/portfolio"
 	},
 	"license": "MIT",
 	"private": true,
@@ -28,6 +29,8 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+   		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
